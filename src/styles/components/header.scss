@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background-color: black;
+
+  &__sections {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__sections {
+    &--left {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+
+    &--right {
+      flex-basis: 50%;
+      max-width: 50%;
+    }
+  }
+
+  &__link {
+    display: block;
+    color: white;
+    padding: 16px;
+  }
+}
